@@ -37,10 +37,10 @@ OPTION="-m $VOICE \
 -p 240 \
 -a 0.5 \
 -u 0.0 \
--r 0.5 \
+-r 0.9 \
 -fm 1.0 \
 -jm 1.0 \
--jf 1.5 \
+-jf 0.5 \
 -x $DIC \
 -ow $OUTPUT"
 
