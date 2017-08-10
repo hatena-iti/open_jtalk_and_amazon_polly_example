@@ -33,14 +33,14 @@ OUTPUT=./output.wav
 # -m: 音響モデル
 # -ow: 出力するファイル名
 OPTION="-m $VOICE \
--s 48000 \
+-s 40000 \
 -p 240 \
 -a 0.5 \
 -u 0.0 \
--r 0.9 \
+-r 1.0 \
 -fm 1.0 \
 -jm 1.0 \
--jf 0.5 \
+-jf 0.2 \
 -x $DIC \
 -ow $OUTPUT"
 
